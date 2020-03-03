@@ -7,6 +7,6 @@ public class LogObserver {
     @Inject
     private Event<LogEvent> event;
     public void observe(LogEvent logEvent) {
-        event.fire(logEvent);
+       event.fire(logEvent);
     }
 }

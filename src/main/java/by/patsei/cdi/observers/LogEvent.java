@@ -6,6 +6,7 @@ public class LogEvent {
     Date date = new Date();
 
     public String getDate() {
+
         return date.toString();
     }
 }

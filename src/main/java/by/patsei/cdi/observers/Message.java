@@ -8,6 +8,7 @@ import javax.enterprise.context.Dependent;
 public class Message {
 
        public String getMessage(){
+
            return "Hello World!!";
     }
 }

@@ -11,6 +11,7 @@ public class Service {
     private Message message;
 
     public void showМessage(){
+
         System.out.println(message.getMessage());
     }
 }
